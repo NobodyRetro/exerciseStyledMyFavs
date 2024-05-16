@@ -1,0 +1,51 @@
+body {
+  background-color: #e4d7b5;
+}
+
+table {
+  border: 10px groove #52436b;
+  margin-left: auto; /* this centers the table*/
+  margin-right: auto;
+}
+
+th {
+  background-color: #84749c;
+  color: #e4d7b5;
+  padding: 5px;
+  border: 5px solid #84749c;
+}
+
+tr {
+  border: 0px none transparent;
+}
+
+td {
+  color: #52436b;
+  padding: 10px;
+  border: 0.5px solid #84749c;
+  width: 400px;
+}
+
+.rowTitles {
+  padding: 5px;
+  text-align: center;
+  text-shadow: 0.5px 0.5px 25px #0b0553;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.favs {
+  color: rgb(180, 28, 59);
+}
+
+.notFavs {
+  color: rgb(81, 81, 255);
+}
+
+.images {
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 250px;
+}
